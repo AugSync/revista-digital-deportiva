@@ -20,8 +20,8 @@ class FrecuenciaCardiacaComponent extends HTMLElement {
                                     <p class="mt-3 text-gray-700 leading-relaxed">Conocer y monitorear tu frecuencia cardíaca te permite entrenar de manera más eficiente y segura, optimizando los resultados de tu actividad física.</p>
                                 </div>
                                 <div class="md:w-1/2">
-                                    <img src="https://images.pexels.com/photos/4498362/pexels-photo-4498362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                                         alt="Medición de frecuencia cardíaca" 
+                                    <img src="https://cardiosalud.org/wp-content/uploads/2019/04/pulso.jpg" 
+                                         alt="Doctor tomando el pulso a un paciente" 
                                          class="w-full h-full object-cover">
                                 </div>
                             </div>
