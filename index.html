@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CésarSport Revista Deportiva</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="components/header-component.js"></script>
+    <script src="components/sidebar-component.js"></script>
+    <script src="components/aptitud-fisica-component.js"></script>
+    <script src="components/frecuencia-cardiaca-component.js"></script>
+    <script src="components/valencias-fisicas-component.js"></script>
+    <script src="components/metodos-evaluacion-component.js"></script>
+    <script src="components/aerobico-anaerobico-component.js"></script>
+    <script src="components/ruffier-dixon-component.js"></script>
+    <script src="components/footer-component.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+        }
+        .revista-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .seccion-completa {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .contenido-seccion {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="revista-container">
+        <header-component></header-component>
+        <aptitud-fisica-component></aptitud-fisica-component>
+        <frecuencia-cardiaca-component></frecuencia-cardiaca-component>
+        <valencias-fisicas-component></valencias-fisicas-component>
+        <metodos-evaluacion-component></metodos-evaluacion-component>
+        <aerobico-anaerobico-component></aerobico-anaerobico-component>
+        <ruffier-dixon-component></ruffier-dixon-component>
+        <footer-component></footer-component>
+    </div>
+</body>
+</html> 
